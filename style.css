@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+table {
+    width: 386px;
+    height: 234px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px 0 black;
+}
+
+table tr td {
+    padding-left: 15px;
+}
+thead {
+    background-color: #009879;
+    width: 386px;
+    height: 47px;
+    color: white;
+    font-weight: bold;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F3F3F3;
+}
+
+tfoot{
+    border-bottom:2px solid #009879 ;
+}
